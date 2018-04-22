@@ -1,0 +1,50 @@
+﻿@model ItemMaster.Models.ItemGroup
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ItemGroup</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Company.Code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Company.Code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ItemGroup2.Code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ItemGroup2.Code)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
