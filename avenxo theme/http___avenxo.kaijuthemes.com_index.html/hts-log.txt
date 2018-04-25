@@ -1,0 +1,54 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 29 Mar 2018 09:59:11 at http://avenxo.kaijuthemes.com/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://avenxo.kaijuthemes.com/index.html -O1 "G:\Website Templates\Admin\avenxo\http___avenxo.kaijuthemes.com_index.html" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:07:27	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/angular/app/'views/layout/header.html' (from avenxo.kaijuthemes.com/angular/app/)
+10:07:27	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/layout-scroll-sidebar.html (from avenxo.kaijuthemes.com/layout-sidebar-scroll.html)
+10:07:27	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/layout-horizontal-large.html (from avenxo.kaijuthemes.com/layout-horizontal.html)
+10:07:27	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/fortawesome.github.io/Font-Awesome/ (from avenxo.kaijuthemes.com/ui-typography.html)
+10:07:27	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/assets/plugins/pines-notify/jquery.pnotify.default.css (from avenxo.kaijuthemes.com/ui-alerts.html)
+10:07:27	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/assets/plugins/pines-notify/jquery.pnotify.min.js (from avenxo.kaijuthemes.com/ui-alerts.html)
+10:07:27	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/"http://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Happy_smiley_face.png/240px-Happy_smiley_face.png" (from avenxo.kaijuthemes.com/custom-pines.html)
+10:07:28	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/scaffolding-grids.php (from avenxo.kaijuthemes.com/ui-forms.html)
+10:07:55	Warning: 	Retry after error -4 (No data (connection closed)) at link upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/23px-Flag_of_the_People%27s_Republic_of_China.svg.png (from avenxo.kaijuthemes.com/tables-responsive.html)
+10:07:56	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/ui-fixedheader.html (from avenxo.kaijuthemes.com/tables-fixedheader.html)
+10:07:56	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/ui-sliders.html (from avenxo.kaijuthemes.com/charts-easypiechart.html)
+10:08:00	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/charts-mapael.html (from avenxo.kaijuthemes.com/maps-mapael.html)
+10:08:00	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/profile.html (from avenxo.kaijuthemes.com/extras-profile.html)
+10:08:01	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/extras-calendar (from avenxo.kaijuthemes.com/extras-calendar.html)
+10:08:01	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/angular/app/assets/css/ui-grid.eot (from avenxo.kaijuthemes.com/angular/app/assets/css/bd1a1f8a.vendor.css)
+10:08:01	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/angular/app/assets/css/ui-grid.woff (from avenxo.kaijuthemes.com/angular/app/assets/css/bd1a1f8a.vendor.css)
+10:08:01	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/angular/app/assets/css/ui-grid.ttf? (from avenxo.kaijuthemes.com/angular/app/assets/css/bd1a1f8a.vendor.css)
+10:08:01	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/angular/app/assets/css/ui-grid.svg? (from avenxo.kaijuthemes.com/angular/app/assets/css/bd1a1f8a.vendor.css)
+10:08:01	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/angular/app/assets/css/minimal/purple.css (from avenxo.kaijuthemes.com/angular/app/assets/css/bd1a1f8a.vendor.css)
+10:08:01	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/angular/app/assets/css/square/purple.css (from avenxo.kaijuthemes.com/angular/app/assets/css/bd1a1f8a.vendor.css)
+10:08:01	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/angular/app/assets/css/flat/purple.css (from avenxo.kaijuthemes.com/angular/app/assets/css/bd1a1f8a.vendor.css)
+10:08:01	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/angular/app/assets/css/line/purple.css (from avenxo.kaijuthemes.com/angular/app/assets/css/bd1a1f8a.vendor.css)
+10:08:01	Warning: 	TLS Redirect for upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/23px-Flag_of_the_People%27s_Republic_of_China.svg.png
+10:08:01	Warning: 	Redirected link is identical because of 'URL Hack' option: upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/23px-Flag_of_the_People%27s_Republic_of_China.svg.png and https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/23px-Flag_of_the_People%27s_Republic_of_China.svg.png
+10:08:01	Warning: 	Warning moved treated for upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/23px-Flag_of_the_People%27s_Republic_of_China.svg.png (real one is https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/23px-Flag_of_the_People%27s_Republic_of_China.svg.png)
+10:08:01	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/assets/plugins/images/sort_both.png (from avenxo.kaijuthemes.com/assets/plugins/datatables/dataTables.bootstrap.css)
+10:08:01	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/assets/plugins/images/sort_asc.png (from avenxo.kaijuthemes.com/assets/plugins/datatables/dataTables.bootstrap.css)
+10:08:01	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/assets/plugins/images/sort_desc.png (from avenxo.kaijuthemes.com/assets/plugins/datatables/dataTables.bootstrap.css)
+10:08:01	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/assets/plugins/images/sort_asc_disabled.png (from avenxo.kaijuthemes.com/assets/plugins/datatables/dataTables.bootstrap.css)
+10:08:01	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/assets/plugins/images/sort_desc_disabled.png (from avenxo.kaijuthemes.com/assets/plugins/datatables/dataTables.bootstrap.css)
+10:08:01	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/assets/fonts/activeicons/activeicons.css (from avenxo.kaijuthemes.com/maps-vector.html)
+10:08:01	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/assets/plugins/jqvmap/jqvmap.css (from avenxo.kaijuthemes.com/maps-vector.html)
+10:08:01	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/assets/plugins/jqvmap/jquery.vmap.min.js (from avenxo.kaijuthemes.com/maps-vector.html)
+10:08:01	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/assets/plugins/jqvmap/maps/jquery.vmap.world.js (from avenxo.kaijuthemes.com/maps-vector.html)
+10:08:01	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/assets/plugins/jqvmap/maps/jquery.vmap.europe.js (from avenxo.kaijuthemes.com/maps-vector.html)
+10:08:01	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/assets/plugins/jqvmap/maps/jquery.vmap.usa.js (from avenxo.kaijuthemes.com/maps-vector.html)
+10:08:01	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/assets/plugins/jqvmap/maps/jquery.vmap.germany.js (from avenxo.kaijuthemes.com/maps-vector.html)
+10:08:01	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/assets/plugins/jqvmap/maps/jquery.vmap.russia.js (from avenxo.kaijuthemes.com/maps-vector.html)
+10:08:01	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/assets/plugins/jqvmap/maps/jquery.vmap.france.js (from avenxo.kaijuthemes.com/maps-vector.html)
+10:08:01	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/assets/plugins/jqvmap/maps/jquery.vmap.algeria.js (from avenxo.kaijuthemes.com/maps-vector.html)
+10:08:01	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/assets/plugins/jqvmap/data/jquery.vmap.sampledata.js (from avenxo.kaijuthemes.com/maps-vector.html)
+10:08:01	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/assets/demo/demos-jqvmap.js (from avenxo.kaijuthemes.com/maps-vector.html)
+10:08:01	Error: 	"Not Found" (404) at link avenxo.kaijuthemes.com/app-inbox (from avenxo.kaijuthemes.com/app-inbox-compose.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 8 minutes 51 seconds : 489 links scanned, 447 files written (17458540 bytes overall) [14108911 bytes received at 26570 bytes/sec], 4783136 bytes transferred using HTTP compression in 22 files, ratio 26%, 4.3 requests per connection
+(39 errors, 4 warnings, 0 messages)

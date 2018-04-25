@@ -12,9 +12,9 @@ namespace ItemMaster.Controllers
         // GET: menu
         public ActionResult Index()
         {
-            var Menus = db.Menus.Where(x => x.IsActive == true && x.ParentID == 0).ToList();
-            ViewData["Menu"] = Menus;
-            return View(Menus);
+            //var Menus = db.Menus.Where(x => x.IsActive == true && x.ParentID == 0).ToList();
+            //ViewData["Menu"] = Menus;
+            return View();
         }
     }
 }

@@ -51,7 +51,7 @@ namespace ItemMaster.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "ID,CompanyID,Code,Name,ParentGroupID")] ItemGroup itemGroup)
         {
-            if (ModelState.IsValid && itemGroup.ParentGroupID > 0)
+            if (ModelState.IsValid)
             {
                 db.ItemGroups.Add(itemGroup);
                 db.SaveChanges();

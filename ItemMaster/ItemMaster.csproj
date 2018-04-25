@@ -291,12 +291,12 @@
     <Content Include="Models\modelDBItemMaster.edmx.diagram">
       <DependentUpon>modelDBItemMaster.edmx</DependentUpon>
     </Content>
+    <Content Include="Views\menu\Index.cshtml" />
     <Content Include="Views\ItemGroups\Create.cshtml" />
     <Content Include="Views\ItemGroups\Delete.cshtml" />
     <Content Include="Views\ItemGroups\Details.cshtml" />
     <Content Include="Views\ItemGroups\Edit.cshtml" />
     <Content Include="Views\ItemGroups\Index.cshtml" />
-    <Content Include="Views\menu\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

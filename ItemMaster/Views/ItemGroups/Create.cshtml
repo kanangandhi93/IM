@@ -6,19 +6,19 @@
 
 <h2>Create</h2>
 
-@using (Html.BeginForm())
+@using (Html.BeginForm()) 
 {
     @Html.AntiForgeryToken()
-
+    
     <div class="form-horizontal">
         <h4>ItemGroup</h4>
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-        <div class="form-group" style="display:none">
+        <div class="form-group">
             @Html.LabelFor(model => model.CompanyID, "CompanyID", htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
                 @Html.DropDownList("CompanyID", null, htmlAttributes: new { @class = "form-control" })
-                <label id="lblCode"></label>
+                @Html.ValidationMessageFor(model => model.CompanyID, "", new { @class = "text-danger" })
             </div>
         </div>
 
@@ -39,16 +39,16 @@
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.ParentGroupID, "ParentGroup", htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.ParentGroupID, "ParentGroupID", htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.DropDownList("ParentGroupID", null, "Select", htmlAttributes: new { @class = "form-control" })
+                @Html.DropDownList("ParentGroupID", null, htmlAttributes: new { @class = "form-control" })
                 @Html.ValidationMessageFor(model => model.ParentGroupID, "", new { @class = "text-danger" })
             </div>
         </div>
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Create" name="btn" onclick="return Validation()" class="btn btn-default" />
+                <input type="submit" value="Create" class="btn btn-default" />
             </div>
         </div>
     </div>
@@ -57,17 +57,3 @@
 <div>
     @Html.ActionLink("Back to List", "Index")
 </div>
-
-<script src="~/assets/js/jquery-1.10.2.min.js"></script>
-<script>
-    function Validation() {
-        debugger;
-        var Code = $('#Code').val();
-        if (Code == '') {
-            //lblCode
-            $('#lblCode').val('Please Enter Code.');
-            return false;
-        }
-        return true;
-    }
-</script>
